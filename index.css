@@ -22,7 +22,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     padding:0;
     margin: 0;
     max-width:100%;
-    border:1px solid grey;
+    /*border:1px solid grey;*/
 }
 /*General Styles*/
 html {
@@ -53,7 +53,7 @@ nav{
 nav a{
     display:inline-block;
     width:10%;
-    padding:1% 0;
+    padding:1% ;
     border-radius:10px;
     text-align:center;
     color:#fff;
@@ -112,34 +112,43 @@ nav a{
 /*history section styles*/
 .history{
     background-color: #DDB9A3;
+    padding:1%;
     text-align: center;
     color:#fff;
     margin:3%;
-    font-size: 2.6rem;
+    font-size: 2.2rem;
 }
 /*fire section*/
 .fire{
-    width:28%;
+    width:15%;
     text-align: center;
     margin-left:auto;
     margin-right: auto;
-    font-size: 2.2rem;
+    font-size: 1.1rem;
 }
 .fire span{
     font-weight: 700;
 }
-/*restrictions section*/
-.restrictions{
-    width:28%;
+/*reservations section*/
+.reservations{
+    width:16%;
     text-align: center;
     margin-left:auto;
     margin-right: auto;
-    font-size: 2.2rem;
+    font-size: 1.1rem;
 }
-.restrictions img{
-    width:28%;
-    height:24%;
-}
-.restrictions span{
+.reservations span{
     font-weight: 700;
+}
+/*background image section*/
+.background{
+    height:40vh;
+    background-image:url('assets/footer_img.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:initial;
+}
+/*bottom section*/
+.bottom{
+    background-color: #F9E7DC;
 }
